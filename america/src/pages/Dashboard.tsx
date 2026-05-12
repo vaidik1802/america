@@ -1,9 +1,5 @@
 
-import { useState } from "react";
-
-import Sidebar from "../components/Sidebar";
 import Header from "../components/Header";
-import Navbar from "../components/Navbar";
 import Margin from "../components/margin";
 import StatsCard from "../components/StatsCard";
 import DeepResearchSection from "../components/DeepResearchSection"

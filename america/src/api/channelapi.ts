@@ -57,11 +57,10 @@ export const getChannels = async (
     payload
   );
 
-  // Example:
-  // response.data.data
+
 
   const apiData: ApiChannel[] =
-    response.data.data;
+    response.data;
 
   return apiData.map(
     (item, index) => ({
