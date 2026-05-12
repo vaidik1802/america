@@ -1,4 +1,3 @@
-// components/WaterfallChart.tsx
 
 import type{ WaterfallBar } from "../types/margin-waterfall";
 
