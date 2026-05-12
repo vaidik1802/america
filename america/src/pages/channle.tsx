@@ -44,8 +44,8 @@ export default function Dashboard() {
 
   if (loading) {
     return (
-      <div className="p-10 text-xl">
-        Loading...
+      <div className="flex min-h-screen items-center justify-center">
+        <div className="h-8 w-8 animate-spin rounded-full border-4 border-slate-200 border-t-indigo-600"></div>
       </div>
     );
   }

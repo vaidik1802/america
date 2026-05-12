@@ -8,9 +8,8 @@ import Sidebar from "./components/Sidebar";
 import ExecutiveOverview from "./pages/Dashboard";
 import Navbar from "./components/Navbar";
 import SKUExplorer from "./pages/sku";
-import MarginWaterfall from "./components/marginwaterfall";
+import MarginWaterfallDashboard from "./pages/margin";
 import Channel from "./pages/channle";
-// import MarginWaterfall from "./pages/MarginWaterfall";
 // import ChannelAnalytics from "./pages/ChannelAnalytics";
 
 import AlertsInbox from "./components/Alertsindex";
@@ -54,7 +53,7 @@ function App() {
 {
               <Route
                 path="/margin-waterfall"
-                element={<MarginWaterfall />}
+                element={<MarginWaterfallDashboard />}
               />
 }
 {              <Route
